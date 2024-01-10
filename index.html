@@ -25,22 +25,22 @@
 							<a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Saldi</a>
+							<a class="nav-link" href="#saldi">Saldi</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" aria-disabled="true">Welcome Summer</a>
+							<a class="nav-link">Welcome Summer</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" aria-disabled="true">Last Minute
+							<a class="nav-link">Last Minute
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" aria-disabled="true">Recensioni</a>
+							<a class="nav-link">Recensioni</a>
 						</li>
 					</ul>
 					<form class="d-flex" role="search">
-						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-danger" type="submit">Search</button>
+						<input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+						<button class="btn btn-outline-danger" type="button">Cerca</button>
 					</form>
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 			<div class="row">
 				<div class="col bg-light rounded p-4">
 					<div class="d-flex align-items-center text-secondary ">
-						<h1 class="fw-normal">Everline-R</h1>
+						<h1 class="fw-light display-1">Everline-R</h1>
 						<h6 class="fw-light">&mdash; Fell the freedom</h6>
 					</div>
 					<hr>
@@ -65,11 +65,11 @@
 				<div class="col-6 ">
 					<h3 class="m-0">Saldi</h3>
 				</div>
-				<div class="col-6 text-end text-info">
+				<div class="col-6 text-end text-info collapse-btn" data-target="saldi">
 					Nascondi sezione
 				</div>
 			</div>
-			<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+			<div id="saldi" class="collapsable row row-cols-2 row-cols-md-3 row-cols-lg-4">
 				<div class="col mb-2">
 					<div class="card border-info border-2">
 						<img src="assets/imgs/img7.png" class="card-img-top" alt="Grecia">
@@ -109,7 +109,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col mb-2">
+				<div class="col mb-2 d-md-none d-lg-block">
 					<div class="card border-info border-2">
 						<img src="assets/imgs/img4.png" class="card-img-top" alt="isola tropicale">
 						<div class="card-body">
@@ -129,11 +129,11 @@
 				<div class="col-6 ">
 					<h3 class="m-0">Welcome Summer</h3>
 				</div>
-				<div class="col-6 text-end text-info">
+				<div class="col-6 text-end text-info collapse-btn" data-target="welcome-summer">
 					Nascondi sezione
 				</div>
 			</div>
-			<div class="row row-cols-2 row-cols-md-2 row-cols-lg-3">
+			<div id="welcome-summer" class="collapsable row row-cols-2 row-cols-md-2 row-cols-lg-3">
 				<div class="col mb-2">
 					<div class="card border-0 shadow position-relative ">
 						<span class="badge bg-danger end-0 m-2 position-absolute">HOT</span>
@@ -222,14 +222,14 @@
 		</div>
 		<div class="container mt-4">
 			<div class="row align-items-center mb-4">
-				<div class="col-6 ">
+				<div class="col-6">
 					<h3 class="m-0">Offerta del giono</h3>
 				</div>
-				<div class="col-6 text-end text-info">
+				<div class="col-6 text-end text-info collapse-btn" data-target="offerta-giorno">
 					Nascondi sezione
 				</div>
 			</div>
-			<div class="row">
+			<div id="offerta-giorno" class="collapsable row">
 				<div class="col-6 col-lg-8">
 					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
 				</div>
@@ -248,28 +248,28 @@
 				<div class="col-6 ">
 					<h3 class="m-0">Last Minute</h3>
 				</div>
-				<div class="col-6 text-end text-info">
+				<div class="col-6 text-end text-info collapse-btn" data-target="last-minute">
 					Nascondi sezione
 				</div>
 			</div>
-			<div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+			<div id="last-minute" class=" collapsable row row-cols-2 row-cols-md-3 row-cols-lg-6">
 				<div class="col mb-2">
 					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
 				</div>
 				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+					<img class="img-fluid rounded shadow" src="assets/imgs/img2.png" alt="Grecia">
 				</div>
 				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+					<img class="img-fluid rounded shadow" src="assets/imgs/img3.png" alt="Grecia">
 				</div>
 				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+					<img class="img-fluid rounded shadow" src="assets/imgs/img4.png" alt="Grecia">
 				</div>
 				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+					<img class="img-fluid rounded shadow" src="assets/imgs/img5.png" alt="Grecia">
 				</div>
 				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+					<img class="img-fluid rounded shadow" src="assets/imgs/img6.png" alt="Grecia">
 				</div>
 			</div>
 		</div>
@@ -280,33 +280,87 @@
 					<h3 class="m-0">Dicono di noi</h3>
 				</div>
 			</div>
-			<div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+			<div class="row">
+				<div class="col avatar">
+					<img class="img-fluid rounded-circle border border-2 border-info" src="assets/imgs/avatar.jpg" alt="">
 				</div>
-				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+				<div class="col fixed-avatar">
+					<p class="fw-bold ">Username</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim debitis, aperiam rem assumenda placeat
+						laudantium rerum quisquam dicta quos dolorum praesentium et pariatur, at voluptatum id soluta. Quam, dolores
+						sequi.</p>
 				</div>
-				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+			</div>
+			<div class="row">
+				<div class="col avatar">
+					<img class="img-fluid rounded-circle border border-2 border-info" src="assets/imgs/avatar.jpg" alt="">
 				</div>
-				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+				<div class="col fixed-avatar">
+					<p class="fw-bold ">Username</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim debitis, aperiam rem assumenda placeat
+						laudantium rerum quisquam dicta quos dolorum praesentium et pariatur, at voluptatum id soluta. Quam, dolores
+						sequi.</p>
 				</div>
-				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+			</div>
+			<div class="row">
+				<div class="col avatar">
+					<img class="img-fluid rounded-circle border border-2 border-info" src="assets/imgs/avatar.jpg" alt="">
 				</div>
-				<div class="col mb-2">
-					<img class="img-fluid rounded shadow" src="assets/imgs/img7.png" alt="Grecia">
+				<div class="col fixed-avatar">
+					<p class="fw-bold ">Username</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim debitis, aperiam rem assumenda placeat
+						laudantium rerum quisquam dicta quos dolorum praesentium et pariatur, at voluptatum id soluta. Quam, dolores
+						sequi.</p>
 				</div>
 			</div>
 		</div>
 	</main>
-	<footer></footer>
+	<footer>
+		<div class="container-fluid mt-4">
+			<div class="row">
+				<div class="col p-4 text-center bg-dark">
+					<button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+						data-bs-target="#contattaci">Contattaci</button>
+					<p class=" mt-4 text-light">&copy; 2024 Kalina Travel LTD. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
+	<div class="modal" tabindex="-1" id="contattaci">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contattaci</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col">
+							<h3 class="text-center">Chiedi informazioni o prenota uno dei nostri <span id="n"></span> viaggi in tutto
+								il mondo</h3>
+							<div class="mb-3">
+								<label for="exampleFormControlInput1" class="form-label">Email</label>
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@esempio.com">
+							</div>
+							<div class="mb-3">
+								<label for="exampleFormControlTextarea1" class="form-label">Messaggio</label>
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+					<button type="button" class="btn btn-info" data-bs-dismiss="modal">Invia</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 </body>
 
 </html>
